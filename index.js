@@ -80,7 +80,7 @@ const enemies = [];
 
 function spawnEnemy() {
   setInterval(() => {
-    const radius = 30;
+    const radius = Math.random() * (30 - 4) + 4;
 
     let x, y;
 
