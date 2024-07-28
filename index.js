@@ -160,8 +160,8 @@ addEventListener("click", (event) => {
   );
 
   const velocity = {
-    x: Math.cos(angle),
-    y: Math.sin(angle),
+    x: Math.cos(angle) * 5,
+    y: Math.sin(angle) * 5,
   };
 
   projectiles.push(
